@@ -6,7 +6,7 @@ alias l="git log --pretty=oneline --decorate"
 alias s="git status --short --branch"
 alias c="git commit -m"
 alias ca="git commit -a -m"
-alias reset="git reset --hard HEAD"
+alias reset="git reset HEAD"
 alias a="git add"
 
 #Path	
