@@ -1,0 +1,24 @@
+[user]
+	name = Jorj Xenos
+	email = jorjxenos@gmail.com
+[alias]
+	s = status --short --branch
+	sa = diff --name-only --cached
+	l = log --pretty=oneline --decorate
+	x = checkout
+	b = branch
+	a = add
+	c = commit -m
+	ca = commit -am
+	r = reset HEAD
+
+[merge]
+	tool = studio64
+
+[mergetool "studio64"]
+	cmd = studio64 merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")
+	trustExitCode = true
+[diff]
+	tool = studio64
+[difftool "studio64"]
+	cmd = studio64 diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")
