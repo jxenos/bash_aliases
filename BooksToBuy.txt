@@ -1,0 +1,23 @@
+Improving Design of Existing Code
+https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/ref=sr_1_3?ie=UTF8&qid=1528723870&sr=8-3&keywords=working+effectively+with+legacy+code
+
+
+Clean Architecture  (look up Clean Code, and Clean Coders as well)
+https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_2?ie=UTF8&qid=1528723870&sr=8-2&keywords=working+effectively+with+legacy+code
+
+
+Working Effectively with Legacy Code
+https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=sr_1_1?ie=UTF8&qid=1528723870&sr=8-1&keywords=working+effectively+with+legacy+code
+https://archive.org/details/WorkingEffectivelyWithLegacyCode
+
+
+Refactoring Test Code
+https://www.amazon.com/gp/offer-listing/0131495054/ref=olp_f_primeEligible?ie=UTF8&f_all=true&f_used=true&f_usedAcceptable=true&f_usedGood=true&f_usedLikeNew=true&f_usedVeryGood=true
+
+
+Effective Java
+https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997/ref=sr_1_1?ie=UTF8&qid=1528724143&sr=8-1&keywords=effective+java+4th+edition
+
+
+Kotlin in Action
+https://www.amazon.com/Kotlin-Action-Dmitry-Jemerov/dp/1617293296/ref=sr_1_1?s=books&ie=UTF8&qid=1528724186&sr=1-1&keywords=kotlin+in+action
