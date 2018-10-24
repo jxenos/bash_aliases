@@ -1,21 +1,14 @@
 ### BashRC ###
 
 #Alias
-alias and="cd ~/programming/android"
 alias g="git"
-alias fb="clear && ECHO How does that put fish in bags?"
-alias mc="clear; ECHO Magic counch, What should we do?; Sleep 3s; clear;  ECHO Nothing."
-alias brc="nano ~/.bashrc && source ~/.bashrc"
-alias gconfig="nano ~/.gitconfig"
-alias updatereceiver="cp -r ~/programming/WebApps/Webcams_ReceiverApp/ /z/httpd/html"
-
-alias monkey="adb shell monkey -p com.earthcam.controlcentereight.debug -v 50000"
-alias monkeyk="adb shell ps | awk '/com\.android\.commands\.monkey/ { system(\"adb shell kill \" $2) }'"
+alias brc="vi ~/.bashrc && source ~/.bashrc"
+alias grc="vi ~/.gitconfig"
+alias vrc="vi ~/.vimrc"
 
 __git_complete g __git_main
 
 #Functions
-uninst() { adb uninstall com.earthcam.$1; adb uninstall com.earthcam.$1.debug; }
 magic() {
 clear
 arg="Magic Counch, What should we do?"
@@ -46,13 +39,7 @@ f="${f//\\//}"
 echo "$f"
 }
 
-
-#Path	
-PATH=$PATH:/C/ProgramData/Oracle/Java/javapath:/C/windows/system32:/C/windows:/C/windows/System32/Wbem:/C/windows/System32/WindowsPowerShell/v1.0:"/C/Program\ Files\ \(x86\)/Intel/OpenCL SDK/1.5/bin/x86":"/C/Program\ 
-Files\ 
-\(x86\)/Intel/OpenCL\ SDK/1.5/bin/x64":"/C/Program Files/TortoiseSVN/bin":"/C/Program\ Files/Git/cmd":"/C/Program\ Files/TortoiseGit/bin":~/AppData/Local/Android/Sdk/platform-tools:"/c/Program 
-Files/Java/jre-9.0.4/bin":"/C/Program Files/Android/Android Studio/bin":"/C/Program Files/Java/jdk-9.0.4/bin"
-
+#=====prompt===========================
 git_branch() {
     # -- Finds and outputs the current branch name by parsing the list of
     #    all branches
@@ -124,9 +111,6 @@ git_prompt() {
 echonewline() {
   echo -e '\n$ '
 }
-
-# first stable... modifying from here... don't know what a couple things do
-# PS1='\[\e[1;32m\]\u\[\e[0;39m\]@\[\e[1;36m\]\H\[\e[0;39m\]:\e];\[\e[33m\]\w\[\e[1;35m\] $(git_prompt)\[\e[m$ '
 
 # first working in bash rc... new line was killing it but it parses so SLOW
 #PS1='\[\e[1;32m\]\u\[\e[0;39m\]@\[\e[1;36m\]\H\[\e[0;39m\]:\e]\[\e[0;33m\]\w\[\e[1;35m\] $(git_prompt)\[\e[m$(echonewline)'
