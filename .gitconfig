@@ -1,6 +1,6 @@
 [user]
 	name = Jorj Xenos
-	email = jxenos@earthcam.com
+	email = jxenos@
 [alias]
 	s = status --short --branch
 	sa = diff --name-only --cached
